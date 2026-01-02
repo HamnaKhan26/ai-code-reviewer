@@ -70,4 +70,12 @@ npm install
 npm run dev
 
 ```
+📝 Usage
 
+Open React frontend.
+
+Paste your PR diff or code snippet in the input field.
+
+Click “Review Code”.
+
+Receive structured AI feedback instantly.
