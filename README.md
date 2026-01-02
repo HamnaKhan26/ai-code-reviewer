@@ -1,4 +1,4 @@
-AI Code Reviewer
+## AI Code Reviewer
 
 A fullstack AI-powered code review tool that automatically analyzes PR diffs or code snippets and provides structured feedback on bugs, performance, security, and code quality.
 
@@ -29,3 +29,45 @@ Backend: Node.js + Express.js
 LLM: Ollama Mistral model
 
 Fetch API: For backend → LLM communication
+
+## Installation & Setup
+1️⃣ Install Ollama & Pull Model
+
+```bash
+
+# Install Ollama
+https://ollama.com
+
+# Verify installation
+ollama --version
+
+# Pull Mistral model
+ollama pull mistral
+
+```
+
+2️⃣ Run Ollama Server
+```bash
+
+ollama run mistral
+```
+
+Keep this terminal open — it runs your local LLM server
+
+3️⃣ Backend Setup
+```bash
+
+cd backend
+npm install
+node index.js
+```
+
+4️⃣ Frontend Setup
+```bash
+
+cd frontend
+npm install
+npm run dev
+
+```
+
