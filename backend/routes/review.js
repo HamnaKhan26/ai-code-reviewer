@@ -1,5 +1,6 @@
 import express from 'express';
-import {reviewCode} from '../services/openai.js';
+//import {reviewCode} from '../services/openai.js';
+import { reviewCode } from "../services/ollama.js";
 import {buildPrompt} from '../prompts/codeReviewPrompt.js';
 
 const router = express.Router();
@@ -12,8 +13,8 @@ router.post('/', async (req, res) => {
     }
 
     try {
-        const prompt = buildPrompt(diff, language);
-        const review = await reviewCode(prompt);
+      //  const prompt = buildPrompt(diff, language);
+        const review = await reviewCode(diff, language);
         res.json({review});
     } catch (error) {
         console.error('Error generating code review:', error);
