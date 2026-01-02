@@ -70,7 +70,7 @@ npm install
 npm run dev
 
 ```
-📝 Usage
+## Usage
 
 1. Open React frontend.
 
