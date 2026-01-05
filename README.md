@@ -79,3 +79,6 @@ npm run dev
 3. Click “Review Code”.
 
 4. Receive structured AI feedback instantly.
+
+## Output
+<img width="1672" height="842" alt="ai-code-reviewer" src="https://github.com/user-attachments/assets/b1d948c1-ae1e-46af-ac8c-7dd710bf0b5b" />
